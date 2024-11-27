@@ -8,6 +8,15 @@ export default {
   ],
   theme: {
     extend: {
+      keyframes: {
+        wave: {
+          '0%, 100%': { transform: 'rotate(0deg)' },
+          '50%': { transform: 'rotate(20deg)' },
+        },
+      },
+      animation: {
+        wave: 'wave 1s ease-in-out infinite',
+      },
       fontFamily: {
         gotham: ['var(--font-gotham-light)'],
       },
