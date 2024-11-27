@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        gotham: ['var(--font-gotham-light)'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
