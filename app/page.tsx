@@ -9,10 +9,10 @@ export default function Home() {
       <header className="sticky top-0 left-0 w-full z-10 flex justify-between p-4">
         <div>
           <Link href={'#background'} className="text-gray-800 m-2">background</Link>
-          <Link href={'#skills'} scroll={false} className="text-gray-800 m-2">skills</Link>
-          <Link href={'#experience'} scroll={false} className="text-gray-800 m-2">experience</Link>
+          <Link href={'#skills'} className="text-gray-800 m-2">skills</Link>
+          <Link href={'#experience'} className="text-gray-800 m-2">experience</Link>
         </div>
-        <Link href={'https://www.github.com/hadi-khir'} className="text-gray-800">github</Link>
+        <Link href={'https://www.github.com/hadi-khir'} target="_blank" className="text-gray-800">github</Link>
       </header>
 
       {/* hero section */}
@@ -32,8 +32,8 @@ export default function Home() {
           </h1>
           <p className="mt-4 text-xl font-semibold">
             I&apos;m a fullstack engineer focused on building beautiful interfaces and experiences. I&apos;ve helped companies such as{" "}
-            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://www.sap.com'>SAP</Link>, and{" "}
-            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://www.maxar.com'>Maxar</Link>{" "}
+            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" target="_blank" href='https://www.sap.com'>SAP</Link>, and{" "}
+            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" target="_blank" href='https://www.maxar.com'>Maxar</Link>{" "}
             to build high quality, resilient, cloud-native systems that have served hundreds of thousands of users!
           </p>
         </div>
@@ -47,13 +47,14 @@ export default function Home() {
             I graduated from the <span className="font-bold">University of Ottawa</span>{" "}
             in 2019, with a degree in <span className="font-bold">Electrical Engineering</span>.
             In that time, I got to complete internships for leading organizations such as{" "}
-            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://www.nokia.com'>Nokia</Link>, and the{" "}
-            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://sunlab.ca/'>University of Ottawa SUNLAB</Link>{" "}.
+            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" target="_blank" href='https://www.nokia.com'>Nokia</Link>, and the{" "}
+            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" target="_blank" href='https://sunlab.ca/'>University of Ottawa SUNLAB</Link>{" "}.
           </span>
           <span>
             After completing my degree, I had the
             opportunity to work with amazing teams at{" "}
             <Link
+              target="_blank"
               className="underline text-blue-600 hover:text-blue-800"
               href="https://www.sap.com"
             >
@@ -61,6 +62,7 @@ export default function Home() {
             </Link>,{" "}
             where I was part of the Partner Engineering team and{" "}
             <Link
+              target="_blank"
               className="underline text-blue-600 hover:text-blue-800"
               href="https://www.maxar.com"
             >
