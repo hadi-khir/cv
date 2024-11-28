@@ -28,10 +28,10 @@ export default function Home() {
         </div>
         <div className="mt-8 w-1/2">
           <h1 className="text-3xl font-bold">
-            Hey, it's me, Hadi! <span className="animate-wave text-3xl">👋</span>
+            Hey, it&apos;s me, Hadi! <span className="animate-wave text-3xl">👋</span>
           </h1>
           <p className="mt-4 text-xl font-semibold">
-            I'm a fullstack engineer focused on building beautiful interfaces and experiences. I've helped companies such as{" "}
+            I&apos;m a fullstack engineer focused on building beautiful interfaces and experiences. I&apos;ve helped companies such as{" "}
             <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://www.sap.com'>SAP</Link>, and{" "}
             <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://www.maxar.com'>Maxar</Link>{" "}
             to build high quality, resilient, cloud-native systems that have served hundreds of thousands of users!
@@ -69,7 +69,7 @@ export default function Home() {
             as part of their Charting and Encoding Engineering team.
           </span>
           <span>
-            In my spare time, I'll be hanging out with my cat Zaytoun, making coffees the old fashioned way, or out taking some photos.
+            In my spare time, I&apos;ll be hanging out with my cat Zaytoun, making coffees the old fashioned way, or out taking some photos.
           </span>
         </div>
       </section>
