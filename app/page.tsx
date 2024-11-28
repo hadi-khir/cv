@@ -7,8 +7,8 @@ export default function Home() {
 
       {/* header section */}
       <header className="sticky top-0 left-0 w-full z-10 flex justify-between p-4">
-        <button className="text-gray-800 dark:text-white">menu</button>
-        <button className="text-gray-800 dark:text-white">github</button>
+        <button className="text-gray-800">menu</button>
+        <button className="text-gray-800">github</button>
       </header>
 
       {/* hero section */}
@@ -28,8 +28,9 @@ export default function Home() {
           </h1>
           <p className="mt-4 text-xl font-semibold">
             I'm a fullstack engineer focused on building beautiful interfaces and experiences. I've helped companies such as{" "}
-            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://www.sap.com'>SAP</Link>, and{" "} 
-            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://www.maxar.com'>Maxar</Link> to build high quality, resilient, cloud-native systems that have served hundreds of thousands of users!
+            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://www.sap.com'>SAP</Link>, and{" "}
+            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://www.maxar.com'>Maxar</Link>{" "}
+            to build high quality, resilient, cloud-native systems that have served hundreds of thousands of users!
           </p>
         </div>
       </main>
@@ -37,25 +38,55 @@ export default function Home() {
         <h2 className="text-blue-600 text-lg font-bold uppercase tracking-wider">
           Background
         </h2>
-        <p className="mt-4 text-gray-800 leading-relaxed">
-          I'm currently a Fullstack Engineer building scalable and resilient
-          systems for the web. After completing my degree, I had the
+        <p className="mt-4 leading-relaxed">
+          I graduated from the <span className="font-bold">University of Ottawa</span>{" "}
+          in 2019, with a degree in <span className="font-bold">Electrical Engineering</span>.
+          In that time, I got to complete internships for leading organizations such as{" "}
+          <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://www.nokia.com'>Nokia</Link>, and the{" "}
+          <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href='https://sunlab.ca/'>University of Ottawa SUNLAB</Link>{" "}.
+          <br />
+          After completing my degree, I had the
           opportunity to work with amazing teams at{" "}
           <Link
             className="underline text-blue-600 hover:text-blue-800"
             href="https://www.sap.com"
           >
             SAP
-          </Link>{" "}
-          and{" "}
+          </Link>,{" "}
+          where I was part of the Partner Engineering team and{" "}
           <Link
             className="underline text-blue-600 hover:text-blue-800"
             href="https://www.maxar.com"
           >
             Maxar
-          </Link>
-          .
+          </Link>, {" "}
+          as part of their Charting and Encoding Engineering team.
+          <br />
+          In my spare time, I'll be hanging out with my cat Zaytoun, making coffees the old fashioned way, or out taking some photos.
         </p>
+      </section>
+      <section className="w-full mt-32 px-8 md:px-16 lg:px-32 grid grid-cols-[30%_70%]">
+        <h2 className="text-blue-600 text-lg font-bold uppercase tracking-wider">
+          Skills
+        </h2>
+        <div className="grid grid-cols-4 gap-4">
+          <div>
+            <h1>Languages</h1>
+            <p>Java</p>
+          </div>
+          <div>
+            <h1>Languages</h1>
+            <p>Java</p>
+          </div>
+          <div>
+            <h1>Languages</h1>
+            <p>Java</p>
+          </div>
+          <div>
+            <h1>Languages</h1>
+            <p>Java</p>
+          </div>
+        </div>
       </section>
     </div>
   );
