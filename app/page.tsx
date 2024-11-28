@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -8,11 +9,11 @@ export default function Home() {
       {/* header section */}
       <header className="sticky top-0 left-0 w-full z-10 flex justify-between p-4">
         <div>
-          <Link href={'#background'} className="text-gray-800 m-2">background</Link>
-          <Link href={'#skills'} className="text-gray-800 m-2">skills</Link>
-          <Link href={'#experience'} className="text-gray-800 m-2">experience</Link>
+          <Link href={'#background'} className="text-gray-800 m-2 hover:text-blue-500 transition-colors">background</Link>
+          <Link href={'#skills'} className="text-gray-800 m-2 hover:text-blue-500 transition-colors">skills</Link>
+          <Link href={'#experience'} className="text-gray-800 m-2 hover:text-blue-500 transition-colors">experience</Link>
         </div>
-        <Link href={'https://www.github.com/hadi-khir'} target="_blank" className="text-gray-800">github</Link>
+        <Link href={'https://www.github.com/hadi-khir'} target="_blank" className="text-gray-800 hover:text-blue-500 transition-colors">github</Link>
       </header>
 
       {/* hero section */}
@@ -155,7 +156,11 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer className="flex flex-col items-center m-16 mt-32">
+      <Link href="/files/khir-hadi-resume.pdf" target="_blank" className="animate-pulse flex items-center justify-end space-x-2 hover:text-blue-500 transition-colors self-end m-24">
+        <span className="text-xl">View Full Resume</span>
+        <FaArrowRight className="text-xl" />
+      </Link>
+      <footer className="flex flex-col items-center m-16">
         <span>Designed & Developed by Hadi 🤖</span>
         <span>Thanks for visiting! 💐</span>
       </footer>
