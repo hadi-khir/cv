@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         <div className="mt-8 w-1/2">
           <h1 className="text-3xl font-bold">
-            Hey, it&apos;s me, Hadi! <span className="animate-wave text-3xl">👋</span>
+            Hey, it&apos;s me, Hadi! <span className="inline-block animate-wave text-3xl">👋</span>
           </h1>
           <p className="mt-4 text-xl font-semibold">
             I&apos;m a fullstack engineer focused on building beautiful interfaces and experiences. I&apos;ve helped companies such as{" "}

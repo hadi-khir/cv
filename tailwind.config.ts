@@ -21,7 +21,7 @@ export default {
         }
       },
       animation: {
-        wave: 'wave 1.5s infinite'
+        wave: 'wave 2s infinite'
       },
       fontFamily: {
         gotham: ['var(--font-gotham-light)'],
