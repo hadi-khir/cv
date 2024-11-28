@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Figtree } from 'next/font/google';
+import { Analytics } from "@vercel/analytics/react"
 
 const figtree = Figtree({ subsets: ['latin'] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({
         className={figtree.className}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
