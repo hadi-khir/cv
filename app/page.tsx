@@ -17,7 +17,7 @@ export default function Home() {
       </header>
 
       {/* hero section */}
-      <main className="flex flex-col items-center text-center mb-32">
+      <main className="flex flex-col items-center text-center mb-16">
         <div className="mt-16 rounded-full w-64 h-64 overflow-hidden">
           <Image
             src='/profile.jpeg'
@@ -33,13 +33,14 @@ export default function Home() {
           </h1>
           <p className="mt-4 text-xl font-semibold">
             I&apos;m a fullstack engineer focused on building beautiful interfaces and experiences. I&apos;ve helped companies such as{" "}
-            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" target="_blank" href='https://www.sap.com'>SAP</Link>, and{" "}
-            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" target="_blank" href='https://www.maxar.com'>Maxar</Link>{" "}
+            <Link className="underline text-blue-400 hover:text-blue-800 visited:text-purple-600" target="_blank" href='https://www.sap.com'>SAP</Link>, and{" "}
+            <Link className="underline text-blue-400 hover:text-blue-800 visited:text-purple-600" target="_blank" href='https://www.maxar.com'>Maxar</Link>{" "}
             to build high quality, resilient, cloud-native systems that have served hundreds of thousands of users!
           </p>
         </div>
       </main>
-      <section id='background' className="w-full mt-16 px-8 md:px-16 lg:px-32 grid sm:grid-cols-1 md:grid-cols-[25%_75%] gap-16">
+      <span className="animate-bloom text-blue-600 hover:text-blue-800 inline-block text-xs">SCROLL</span>
+      <section id='background' className="w-full mt-16 px-8 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-[25%_75%] gap-16">
         <h2 className="text-blue-600 text-lg font-bold uppercase tracking-wider md:text-right">
           Background
         </h2>
@@ -48,15 +49,15 @@ export default function Home() {
             I graduated from the <span className="font-bold">University of Ottawa</span>{" "}
             in 2019, with a degree in <span className="font-bold">Electrical Engineering</span>.
             In that time, I got to complete internships for leading organizations such as{" "}
-            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" target="_blank" href='https://www.nokia.com'>Nokia</Link>, and the{" "}
-            <Link className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" target="_blank" href='https://sunlab.ca/'>University of Ottawa SUNLAB</Link>{" "}.
+            <Link className="underline text-blue-400 hover:text-blue-800 visited:text-purple-600" target="_blank" href='https://www.nokia.com'>Nokia</Link>, and the{" "}
+            <Link className="underline text-blue-400 hover:text-blue-800 visited:text-purple-600" target="_blank" href='https://sunlab.ca/'>University of Ottawa SUNLAB</Link>{" "}.
           </span>
           <span>
             After completing my degree, I had the
             opportunity to work with amazing teams at{" "}
             <Link
               target="_blank"
-              className="underline text-blue-600 hover:text-blue-800"
+              className="underline text-blue-400 hover:text-blue-800"
               href="https://www.sap.com"
             >
               SAP
@@ -76,7 +77,7 @@ export default function Home() {
           </span>
         </div>
       </section>
-      <section id='skills' className="w-full mt-16 px-8 md:px-16 lg:px-32 grid sm:grid-cols-1 md:grid-cols-[25%_75%] gap-16">
+      <section id='skills' className="w-full mt-16 px-8 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-[25%_75%] gap-16">
         <h2 className="text-blue-600 text-lg font-bold uppercase tracking-wider md:text-right">
           Skills
         </h2>
@@ -114,43 +115,43 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id='experience' className="w-full mt-16 px-8 md:px-16 lg:px-32 grid sm:grid-cols-1 md:grid-cols-[25%_75%] gap-16">
+      <section id='experience' className="w-full mt-16 px-8 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-[25%_75%] gap-16">
         <h2 className="text-blue-600 text-lg font-bold uppercase tracking-wider md:text-right">
           Experience
         </h2>
         <div className="grid grid-cols-1 gap-16">
           <div>
             <div className="flex justify-between mb-4">
-              <span className="font-bold text-lg">SAP</span>
-              <p>March 2020 - September 2024</p>
+              <span className="font-bold text-lg w-3/5">SAP</span>
+              <span className="w-1/5 md:w-2/5">March 2020 - September 2024</span>
             </div>
             <p>Fullstack Engineer, Partner Engineering</p>
           </div>
           <div>
             <div className="flex justify-between mb-4">
-              <span className="font-bold text-lg">Maxar</span>
-              <p>September 2019 - March 2020</p>
+              <span className="font-bold text-lg w-3/5">Maxar</span>
+              <span className="w-1/5 md:w-2/5">September 2019 - March 2020</span>
             </div>
             <p>Software Engineer I, Charting & Encoding Engineering</p>
           </div>
           <div>
             <div className="flex justify-between mb-4">
-              <span className="font-bold text-lg">Royal Canadian Mounted Police (RCMP)</span>
-              <p>September 2018 - September 2019</p>
+              <span className="font-bold text-lg w-3/5">Royal Canadian Mounted Police (RCMP)</span>
+              <span className="w-1/5 md:w-2/5">September 2018 - September 2019</span>
             </div>
             <p>Software Developer, Firearms Reference Program</p>
           </div>
           <div>
             <div className="flex justify-between mb-4">
-              <span className="font-bold text-lg">University of Ottawa SUNLAB</span>
-              <p>September 2018 - January 2019</p>
+              <span className="font-bold text-lg w-3/5">University of Ottawa SUNLAB</span>
+              <span className="w-1/5 md:w-2/5">September 2018 - January 2019</span>
             </div>
             <p>Research Assistant, University Research Opportunity Scholarship</p>
           </div>
           <div>
             <div className="flex justify-between mb-4">
-              <span className="font-bold text-lg">Nokia</span>
-              <p>September 2017 - April 2018</p>
+              <span className="font-bold text-lg w-3/5">Nokia</span>
+              <span className="w-1/5 md:w-2/5">September 2017 - April 2018</span>
             </div>
             <p>Software Developer Intern, Analytics</p>
           </div>

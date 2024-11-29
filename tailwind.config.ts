@@ -18,10 +18,15 @@ export default {
           '60%': { transform: 'rotate(10.0deg)' },
           '70%': { transform: 'rotate(0.0deg)' },
           '100%': { transform: 'rotate(0.0deg)' },
-        }
+        },
+        bloom: {
+          '0%, 100%': { transform: 'scale(1)', opacity: '1' },
+          '50%': { transform: 'scale(1.5)', opacity: '0.7' },
+        },
       },
       animation: {
-        wave: 'wave 2s infinite'
+        wave: 'wave 2s infinite',
+        bloom: 'bloom 3s infinite ease-in-out',
       },
       fontFamily: {
         gotham: ['var(--font-gotham-light)'],
