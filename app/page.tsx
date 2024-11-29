@@ -4,10 +4,10 @@ import { FaArrowRight } from "react-icons/fa";
 
 export default function Home() {
   return (
-    <div className="min-h-screen m-8 flex flex-col items-center bg-sky-50">
+    <div className="min-h-screen m-1 md:m-8 flex flex-col items-center bg-sky-50">
 
       {/* header section */}
-      <header className="sticky top-0 left-0 w-full z-10 flex justify-between p-4">
+      <header className="sticky top-0 left-0 w-full z-10 flex justify-between p-4 bg-sky-50">
         <div>
           <Link href={'#background'} className="text-gray-800 m-2 hover:text-blue-500 transition-colors">background</Link>
           <Link href={'#skills'} className="text-gray-800 m-2 hover:text-blue-500 transition-colors">skills</Link>
@@ -27,7 +27,7 @@ export default function Home() {
             className="object-cover"
           />
         </div>
-        <div className="mt-8 w-1/2">
+        <div className="mt-8 w-3/4 md:w-1/2">
           <h1 className="text-3xl font-bold">
             Hey, it&apos;s me, Hadi! <span className="inline-block animate-wave text-3xl">👋</span>
           </h1>
@@ -115,7 +115,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id='experience' className="w-full mt-16 px-8 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-[25%_75%] gap-16">
+      <section id='experience' className="w-9/10 mt-16 px-8 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-[25%_75%] gap-16">
         <h2 className="text-blue-600 text-lg font-bold uppercase tracking-wider md:text-right">
           Experience
         </h2>
@@ -123,35 +123,35 @@ export default function Home() {
           <div>
             <div className="flex justify-between mb-4">
               <span className="font-bold text-lg w-3/5">SAP</span>
-              <span className="w-1/5 md:w-2/5">March 2020 - September 2024</span>
+              <span className="w-1/3 md:w-2/5">March 2020 - September 2024</span>
             </div>
             <p>Fullstack Engineer, Partner Engineering</p>
           </div>
           <div>
             <div className="flex justify-between mb-4">
               <span className="font-bold text-lg w-3/5">Maxar</span>
-              <span className="w-1/5 md:w-2/5">September 2019 - March 2020</span>
+              <span className="w-1/3 md:w-2/5">September 2019 - March 2020</span>
             </div>
             <p>Software Engineer I, Charting & Encoding Engineering</p>
           </div>
           <div>
             <div className="flex justify-between mb-4">
               <span className="font-bold text-lg w-3/5">Royal Canadian Mounted Police (RCMP)</span>
-              <span className="w-1/5 md:w-2/5">September 2018 - September 2019</span>
+              <span className="w-1/3 md:w-2/5">September 2018 - September 2019</span>
             </div>
             <p>Software Developer, Firearms Reference Program</p>
           </div>
           <div>
             <div className="flex justify-between mb-4">
               <span className="font-bold text-lg w-3/5">University of Ottawa SUNLAB</span>
-              <span className="w-1/5 md:w-2/5">September 2018 - January 2019</span>
+              <span className="w-1/3 md:w-2/5">September 2018 - January 2019</span>
             </div>
             <p>Research Assistant, University Research Opportunity Scholarship</p>
           </div>
           <div>
             <div className="flex justify-between mb-4">
               <span className="font-bold text-lg w-3/5">Nokia</span>
-              <span className="w-1/5 md:w-2/5">September 2017 - April 2018</span>
+              <span className="w-1/3 md:w-2/5">September 2017 - April 2018</span>
             </div>
             <p>Software Developer Intern, Analytics</p>
           </div>
