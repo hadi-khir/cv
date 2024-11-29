@@ -1,20 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
+import Navbar from "./components/navbar";
 
 export default function Home() {
   return (
     <div className="min-h-screen m-1 md:m-8 flex flex-col items-center bg-sky-50">
 
       {/* header section */}
-      <header className="sticky top-0 left-0 w-full z-10 flex justify-between p-4 bg-sky-50">
-        <div>
-          <Link href={'#background'} className="text-gray-800 m-2 hover:text-blue-500 transition-colors">background</Link>
-          <Link href={'#skills'} className="text-gray-800 m-2 hover:text-blue-500 transition-colors">skills</Link>
-          <Link href={'#experience'} className="text-gray-800 m-2 hover:text-blue-500 transition-colors">experience</Link>
-        </div>
-        <Link href={'https://www.github.com/hadi-khir'} target="_blank" className="text-gray-800 hover:text-blue-500 transition-colors">github</Link>
-      </header>
+      <Navbar />
 
       {/* hero section */}
       <main className="flex flex-col items-center text-center mb-16">
