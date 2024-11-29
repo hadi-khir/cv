@@ -65,7 +65,7 @@ export default function Home() {
             where I was part of the Partner Engineering team and{" "}
             <Link
               target="_blank"
-              className="underline text-blue-600 hover:text-blue-800"
+              className="underline text-blue-400 hover:text-blue-800"
               href="https://www.maxar.com"
             >
               Maxar
@@ -115,7 +115,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id='experience' className="w-9/10 mt-16 px-8 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-[25%_75%] gap-16">
+      <section id='experience' className="w-full mt-16 px-8 md:px-16 lg:px-32 grid grid-cols-1 md:grid-cols-[25%_75%] gap-16">
         <h2 className="text-blue-600 text-lg font-bold uppercase tracking-wider md:text-right">
           Experience
         </h2>
@@ -161,7 +161,7 @@ export default function Home() {
         <span className="text-xl">View Full Resume</span>
         <FaArrowRight className="text-xl" />
       </Link>
-      <footer className="flex flex-col items-center m-16">
+      <footer className="w-full flex flex-col items-center m-16">
         <span>Designed & Developed by Hadi 🤖</span>
         <span>Thanks for visiting! 💐</span>
       </footer>
