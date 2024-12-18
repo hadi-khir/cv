@@ -52,7 +52,12 @@ const Background = () => {
                 </span>
                 <span>
                     In my spare time, I&apos;ll be hanging out with my cat Zaytoun, making coffees the old-fashioned way, or out
-                    taking some photos.
+                    taking some <Link
+                        target='_blank'
+                        className="underline text-blue-400 hover:text-blue-800"
+                        href="https://photos.khir.ca">
+                        photos.
+                    </Link>
                 </span>
             </div>
         </section>
