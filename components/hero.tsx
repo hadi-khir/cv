@@ -23,6 +23,14 @@ const Hero = () => {
                     <Link
                         className="underline text-blue-400 hover:text-blue-800 visited:text-purple-600"
                         target="_blank"
+                        href="https://www.bankofcanada.ca/"
+                    >
+                        Bank of Canada
+                    </Link>
+                    ,{' '}
+                    <Link
+                        className="underline text-blue-400 hover:text-blue-800 visited:text-purple-600"
+                        target="_blank"
                         href="https://www.sap.com"
                     >
                         SAP

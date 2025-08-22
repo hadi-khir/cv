@@ -48,7 +48,13 @@ const Background = () => {
                     >
                         Maxar
                     </Link>
-                    , as part of their Charting and Encoding Engineering team.
+                    , as part of their Charting and Encoding Engineering team. Currently, I&apos;m working at{' '}
+                    <Link
+                        target="_blank"
+                        className="underline text-blue-400 hover:text-blue-800"
+                        href="https://www.bankofcanada.ca/"
+                    >
+                        Bank of Canada</Link> as a Software Engineer, helping to build the next generation of the Bank&apos;s core banking system.
                 </span>
                 <span>
                     In my spare time, I&apos;ll be hanging out with my cat Zaytoun, making coffees the old-fashioned way, or out

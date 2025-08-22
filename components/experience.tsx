@@ -1,6 +1,11 @@
 const Experience = () => {
     const experiences = [
         {
+            company: 'Bank of Canada',
+            role: 'Software Engineer, Data Services',
+            duration: 'March 2025 - Present',
+        },
+        {
             company: 'SAP',
             role: 'Fullstack Engineer, Partner Engineering',
             duration: 'March 2020 - September 2024',
